@@ -1,0 +1,29 @@
+.users-page {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #000;
+  text-align: start;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-user {
+  /* Mantenha seus estilos atuais */
+  border: 1px solid #eee;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .users-page {
+    max-width: 80%;
+  }
+}
