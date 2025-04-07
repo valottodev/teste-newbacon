@@ -180,7 +180,7 @@ export default {
     validateUserForm() {
 
       if (!this.formData.fullName?.trim()) {
-        alert('Nome completo é obrigatório');
+        alert('Por favor, insira um nome completo');
         return false;
       }
 
@@ -190,7 +190,7 @@ export default {
       }
 
       if (!this.formData.job) {
-        alert('Selecione uma função para o usuário');
+        alert('Selecione um cargo');
         return false;
       }
 
