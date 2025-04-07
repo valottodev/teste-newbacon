@@ -10,7 +10,9 @@
 
 ## Próximas melhorias
  - Separar formulário de cadastro e edição em um novo componente
- - Organizar melhor as lógicas de negócio dentro de cada componente, não apenas no UsersView
+
+ - Descentralizar as regras de negócio e organizá-las melhor dentro de cada componente
+
  - Transições suaves de renderização condicional (formulário por exemplo)
 
 
