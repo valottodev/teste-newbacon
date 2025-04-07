@@ -20,9 +20,6 @@
       <button @click="toggleMethod" class="btn btn-primary" :disabled="addingUser">{{ addingUser ?
         'Salvando...' : 'Salvar dados do usuário' }}</button>
     </div>
-    <!-- <UserForm
-      v-if="showUserForm" :is-editing="isEditing" :form-data="formData" :loading="addingUser"
-      @submit="handleSubmit" @cancel="resetForm" /> -->
     <UserList :users="users" :loading="loading" @delete-user="handleDeleteUser" @edit-user="editUser" />
   </div>
 </template>
@@ -32,13 +29,11 @@ import '@/styles/views/UsersView.css'
 import '@/styles/components/UserForm.css'
 import axios from 'axios';
 import UserList from '@/components/UserList.vue';
-// import UserForm from '@/components/UserForm.vue';
 
 export default {
   name: 'UsersView',
   components: {
     UserList,
-    // UserForm
   },
   data() {
     return {
