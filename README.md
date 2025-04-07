@@ -1,15 +1,17 @@
 # Teste de admissão para front-end pleno New Bacon
 
-## Projeto construído em Vue 2.6 e JavaScript
+## Features
 
-## Consumindo dados da API Reqres para alimentar as páginas
+- Projeto construído em Vue 2.6 e JavaScript
 
-## É possível adicionar, editar e deletar usuários localmente (mudanças na API são apenas simuladas)
+- Consumindo dados da API Reqres para alimentar as páginas
+
+- É possível adicionar, editar e deletar usuários localmente (mudanças na API são apenas simuladas)
 
 ## Próximas melhorias
-### - Separar formulário de cadastro e edição em um novo componente
-### - Organizar melhor as lógicas de negócio dentro de cada componente, não apenas no UsersView
-### - Transições suaves de renderização condicional (formulário por exemplo)
+ - Separar formulário de cadastro e edição em um novo componente
+ - Organizar melhor as lógicas de negócio dentro de cada componente, não apenas no UsersView
+ - Transições suaves de renderização condicional (formulário por exemplo)
 
 
 <!-- ## Project setup
